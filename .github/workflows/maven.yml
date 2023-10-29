@@ -27,7 +27,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file Recipe-management-system-API/pom.xml
+      run: mvn -B package --file Recipe_management_system_API/pom.xml
 
       
    
